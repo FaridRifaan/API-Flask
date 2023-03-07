@@ -16,7 +16,7 @@ import urllib.request
 import requests
 
 print(os.getcwd())
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt')
+model = torch.hub.load('---/yolov5', 'custom', path='best.pt')
 
 app = Flask(__name__)
 
